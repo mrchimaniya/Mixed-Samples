@@ -1,0 +1,48 @@
+2022-08-01 15:36:24,215 INFO com.divergentsl.LoggingApplication [restartedMain] Starting LoggingApplication using Java 17.0.2 on DESKTOP-VGD01SS with PID 1388 (D:\divergent\myprojects\Logging\target\classes started by Divergent in D:\divergent\myprojects\Logging)
+2022-08-01 15:36:24,216 DEBUG com.divergentsl.LoggingApplication [restartedMain] Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-01 15:36:24,217 INFO com.divergentsl.LoggingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-01 15:36:24,288 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-01 15:36:24,289 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-01 15:36:25,412 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-08-01 15:36:25,423 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-01 15:36:25,424 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-01 15:36:25,496 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-01 15:36:25,497 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1207 ms
+2022-08-01 15:36:25,926 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-01 15:36:25,954 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-08-01 15:36:25,960 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2022-08-01 15:36:25,978 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-01 15:36:26,025 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-08-01 15:36:41,399 INFO com.divergentsl.LoggingApplication [restartedMain] Starting LoggingApplication using Java 17.0.2 on DESKTOP-VGD01SS with PID 7392 (D:\divergent\myprojects\Logging\target\classes started by Divergent in D:\divergent\myprojects\Logging)
+2022-08-01 15:36:41,401 DEBUG com.divergentsl.LoggingApplication [restartedMain] Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-01 15:36:41,404 INFO com.divergentsl.LoggingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-01 15:36:41,479 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-01 15:36:41,480 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-01 15:36:42,596 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-08-01 15:36:42,608 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-01 15:36:42,608 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-01 15:36:42,689 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-01 15:36:42,689 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1208 ms
+2022-08-01 15:36:43,107 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-08-01 15:36:43,176 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-01 15:36:43,194 INFO com.divergentsl.LoggingApplication [restartedMain] Started LoggingApplication in 2.36 seconds (JVM running for 3.37)
+2022-08-01 15:41:49,831 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 15:41:49,832 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-01 15:41:49,835 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2022-08-01 15:41:49,871 DEBUG com.divergentsl.controller.LoggingController [http-nio-8080-exec-2] Logging Method Called
+2022-08-01 15:49:02,091 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
