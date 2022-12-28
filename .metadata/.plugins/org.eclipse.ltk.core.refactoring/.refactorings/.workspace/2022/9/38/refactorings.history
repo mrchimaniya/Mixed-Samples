@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;test&apos; to &apos;_r_n_whitespace_character&apos;" description="Rename resource &apos;test&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/test" name="_r_n_whitespace_character" stamp="1662957840770" updateReferences="true"/>
-</session>
